@@ -54,11 +54,29 @@ corp.rmktest.click
 
 ## Screenshots
 
-![OU structure](docs/images/ou-structure.png)
-![Logon banner](docs/images/logon-banner.png)
-![Settings blocked for Jordan](docs/images/settings-blocked.png)
-![Sam denied on the Sales share](docs/images/share-denied-sam.png)
-![Account locked out](docs/images/account-locked-out.png)
+**Company OU structure and users**
+
+![Active Directory Users and Computers showing the Company OU with Jordan Rivera and Sam Lee](docs/images/OU-Structure.png)
+
+**Computer rule: sign-in banner (Logon-Banner GPO)**
+
+![Authorized Use Only banner shown before sign-in on Client01](docs/images/logon-banner.png)
+
+**User rule: Control Panel blocked (Lock-Control-Panel GPO)**
+
+![Restriction message shown to Jordan when opening Control Panel](docs/images/settings-blocked.png)
+
+**Group-based file permissions on the Sales share**
+
+![Jordan, a member of Sales-Team, can open and edit files in the Sales share](docs/images/share-sales-allowed-jordan.png)
+
+![Sam, who is not in Sales-Team, is denied access to the Sales share](docs/images/share-sales-denied-sam.png)
+
+**Account lockout and unlock**
+
+![Sign-in screen showing Jordan's account is locked out](docs/images/account-jordan-locked.png)
+
+![Unlock account checkbox on Jordan's Account tab](docs/images/unlocked-jordan-account.png)
 
 ## Lessons learned
 
