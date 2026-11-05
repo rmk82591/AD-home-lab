@@ -2,6 +2,8 @@
 
 A small Active Directory setup in VirtualBox: one Windows Server domain controller and one Windows 11 laptop joined to a domain. I built it to practice everyday help desk work: creating users, resetting passwords, unlocking accounts, fixing "access denied" tickets, and pushing rules with Group Policy.
 
+Update: this lab was later extended in my Help Desk in a Box project, where I worked five tickets against it: a new hire (Casey Nguyen), an offboarding (Sam Lee’s account disabled), and a password reset. The environment described above is its state at the end of this project.
+
 ## Architecture
 
 ```mermaid
